@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import InputField from './components/InputField';
 
 let name:string="burak";
 
@@ -39,17 +40,17 @@ interface Guy extends Person{
   profession:string;
 }
 
-
 type X={
   a:string;
   b:number;
 }
 
 
-function App() {
+const App:React.FC=()=> {
   return (
     <div className="App">
-        <h1>{name}</h1>
+      <span className="heading">Taskify</span>
+      <InputField/>
     </div>
   );
 }
