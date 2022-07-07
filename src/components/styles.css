@@ -34,3 +34,23 @@
 .input__submit:hover{
     background-color: #388ae2;
 }
+.todos__single{
+    display: flex;
+    gap:250px;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+}
+.todos__single--text{
+    font-size: 2rem;
+}
+span{
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    gap:20px;
+}
+li{
+    list-style: none;
+}

@@ -48,7 +48,6 @@ type X = {
 }
 
 
-
 const App: React.FC = () => {
   const [todo, setTodo] = useState<string>("");
   const [todos, setTodos] = useState<Todo[]>([]);
