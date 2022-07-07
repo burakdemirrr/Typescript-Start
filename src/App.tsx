@@ -38,7 +38,6 @@ interface Persona{
 interface Guy extends Person{
   profession:string;
 }
-class name
 
 
 type X={
